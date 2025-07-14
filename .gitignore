@@ -1,0 +1,32 @@
+# HybridMarine-V1 Git Ignore File
+
+# macOS & Windows junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary/project files
+*.bak
+*.tmp
+*.log
+~$*
+
+# CAD or Simulation Software
+*.CATPart
+*.CATProduct
+*.CATDrawing
+*.iges
+*.step
+*.sldprt
+*.sldasm
+*.stl
+
+# Output/Build artifacts
+*.pdf
+*.pptx
+*.zip
+*.tar.gz
+
+# Python or scripts (if later added)
+__pycache__/
+*.pyc
